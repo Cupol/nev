@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример сайта</title>
+    <link rel="stylesheet" href="css\styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мой сайт</h1>
+    </header>
+    <main>
+        <section id="about-section">
+            <h2>Обо мне</h2>
+            <p>Привет! Меня зовут Малышев Владимир. 
+                Я ОНЛАЙН ФИТНЕСС ТРЕНЕР. Мастер Спорта Международного Класса по пауэрлифтингу.
+                <br>
+                Создам красивое и подтянутое тело твоей мечты🔥
+                <br>
+                В спорте более 10 лет 💪
+                <br>
+                Мои знания сэкономят 2 года безрезультатных тренировок в зале 📚
+                <br>
+                Хочешь знать как растут мышцы, смотри Гайд ниже 👇</p>
+        </section>
+        <section id="video-section">
+            <h2>Гайд</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="video\demo.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает элемент видео.
+                </video>
+            </div>
+        </section>
+        <section id="contact-section">
+            <h2>Связаться с нами</h2>
+            <div class="contact-links">
+                <button class="telegram-btn" onclick="openTelegram()"><i class="fab fa-telegram-plane"></i> Telegram</button>
+                <button class="whatsapp-btn" onclick="openWhatsApp()"><i class="fab fa-whatsapp"></i> WhatsApp</button>
+            </div>
+
+        </section>
+        <section id="social-links">
+            <h2>Следите за мной</h2>
+            <div class="social-links-container">
+                <ul>
+                    <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+                    <li><a href="https://www.tiktok.com" target="_blank">TikTok</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Все права защищены</p>
+    </footer>
+
+
+    <script src="js\script.js"></script>
+</body>
+</html>
